@@ -12,4 +12,13 @@ footer {
 
 nav > ul {
   font-family: sans-serif;
+
+}
+
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
 }
