@@ -1,22 +1,50 @@
-body {
-  background-color: #fdf6e3;
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-weight: normal;
+  font-family: "PT Serif", serif;
+  background-color: #c9b5ab;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.buttons {
+  list-style-type: none;
 }
 
 header {
+  font-family: "PT Sans", sans-serif;
+}
+
+a {
+  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
+
+img {
+  width: 100%;
+}
+
+blockquote {
+  font-style: italic;
   font-size: 1.5rem;
 }
 
-footer {
-  font-size: 1.5rem;
+cite {
+  font-size: .8rem;
 }
 
-nav > ul {
-  font-family: sans-serif;
-
-}
-
-.wrapper > .dfn {
-  background-color: #b58900;
+figcaption {
+  text-align: center;
 }
 
 #contents, #favs, #facts, #types {
